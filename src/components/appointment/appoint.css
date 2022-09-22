@@ -1,0 +1,15 @@
+.view-appoints {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-0 {
+  margin: 0;
+}

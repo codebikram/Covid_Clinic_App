@@ -1,0 +1,21 @@
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #20a466;
+  color: #fff;
+  margin-top: auto;
+}
+p {
+  font-size: 13px;
+
+  margin: 0;
+  letter-spacing: 0.8px;
+}
+.chat {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.f-el {
+  padding: 15px 30px;
+}

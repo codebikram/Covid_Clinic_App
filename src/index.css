@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+  .container-box {
+    width: auto;
+  }
+  .rule-img {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .card {
+    width: auto;
+  }
+  .card-body {
+    margin: 10px 0;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+  .heading-text {
+    font-size: 28px;
+  }
+  .footer-section {
+    flex-direction: column;
+    padding: 0;
+  }
+  .footer-section .f-el {
+    padding: 10px;
+  }
+  .rule-img {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .card-group-item {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}

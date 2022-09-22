@@ -1,0 +1,35 @@
+.signin-section {
+  background-color: #fff;
+  width: 450px;
+  margin: 40px auto;
+}
+.input-section {
+  padding: 25px;
+}
+.signin-section h2 {
+  font-size: 36px;
+  color: #333;
+  padding-top: 25px;
+  text-align: center;
+}
+.form-control {
+  font-size: 14px;
+  color: #5e5e5e;
+  background-color: #f2f2f2;
+}
+.align-right {
+  display: block;
+  color: #00aeef;
+  font-size: 13px;
+  text-align: right;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-section {
+  text-align: center;
+}
+.btn-d {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 100px;
+}

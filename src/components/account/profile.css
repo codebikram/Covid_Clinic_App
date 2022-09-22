@@ -1,0 +1,27 @@
+.card {
+  width: 500px;
+  margin: 20px auto;
+}
+.profile-img {
+  margin: 5px auto;
+  border-radius: 50%;
+}
+.card-body {
+  margin: 0 auto;
+  letter-spacing: 1.3px;
+}
+.card-group {
+  display: flex;
+  gap: 10px;
+}
+.card-title {
+  font-size: 25px;
+}
+.card-group .card-text {
+  font-size: 20px;
+}
+.heading-text {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 36px;
+}
