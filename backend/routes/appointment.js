@@ -27,6 +27,7 @@ router.get('/fetchAppoints', isUser, async (req, res) => {
 //Add Appointments
 router.post('/add', isUser, async (req, res) => {
   try {
+    // console.log(req.body);
     const appointmentDetails = await Appointments.create(req.body);
     res.json({
       success: true,
