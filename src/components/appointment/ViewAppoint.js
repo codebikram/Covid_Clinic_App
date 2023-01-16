@@ -69,7 +69,9 @@ const ViewAppoint = () => {
           Your Appointments
         </h2>
       )}
-
+      {appoints.length === 0 && (
+        <h1 className="text-center">There is no appointments</h1>
+      )}
       {appoints.map((appoint) => {
         return (
           <div
